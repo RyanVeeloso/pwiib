@@ -7,6 +7,7 @@
     <title>Entre em contato</title>
 </head>
 <body>
+<a href="index.php">Pagina inicial></a>
     <?php
     echo "<h1>Pagina de contato do site</h1>";
     ?>
