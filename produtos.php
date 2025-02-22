@@ -7,16 +7,16 @@
     <title>Lista de produtos</title>
 </head>
 <body>
-    <a href="index.php">Pagina inicial</a>
+    <a href="index.php">Página Inicial</a>
     <a href="contato.php">Entre em contato</a>
-    <h1>lista de produtos</h1>
+    <h1>Lista de Produtos</h1>
     <ol>
-        <?php
-            for($i = 0; $i < 3; $i++)
-            {
-                echo "<li>Item $i</li>"
-            }
-      ?>
-     </ol>
+    <?php 
+        for($i = 0; $i < 3; $i++)
+        {
+            echo "<li>Item $i</li>";
+        }
+    ?>
+    </ol>
 </body>
 </html>
