@@ -41,21 +41,3 @@
     </div>
   </div>
 </nav>
-<h1>Cadastro de Usuário</h1>
-
-<form action="salvar_dados.php" method="post">
-    <label>Email</label>
-    <input type="email" name="login" value="" />
-    <br />
-    <label>Senha</label>
-    <input type="password" name="senha" value="" />
-    <br />
-    <button type="submit">
-        Logar
-    </button>
-</form>
-
-
-<script src="bootstrap.bundle.min.js"></script>
-</body>
-</html>
